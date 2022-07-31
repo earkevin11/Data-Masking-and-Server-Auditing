@@ -21,4 +21,7 @@
 
 
 # Azure SQL Database Server Auditing
-- Feature can be used to track database events and write them to an audit log.
+- Auditing for Azure SQL database feature can be used to track database events and write them to an audit log.
+- This helps in regulatory compliance and helps to gain insights on any anomalies when it comes to database activities.
+- Auditing can be enabled at the database or server level.
+- If it is enabled at the server level, then it will be applied to all of the databases that reside on the server.
