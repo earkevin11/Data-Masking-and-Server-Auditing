@@ -25,3 +25,10 @@
 - This helps in regulatory compliance and helps to gain insights on any anomalies when it comes to database activities.
 - Auditing can be enabled at the database or server level.
 - If it is enabled at the server level, then it will be applied to all of the databases that reside on the server.
+
+
+# How to enable the Auditing feature
+- Create a LAW (we are going to ingest Azure SQL Database logs into the LAW)
+- Azure SQL DB > Auditing > Select LAW > Save
+- It will take 20-30 minutes to see data in the LAW. Be sure to perform activity in the Azure SQL DB.
+- Users will be able to see SQL DB logins failed attempts and more.
